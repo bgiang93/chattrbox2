@@ -1,0 +1,11 @@
+
+// START SERVER
+npm run dev
+
+npm run build
+
+// START WATCHIFY
+npm run watch
+
+// START CHAT
+wscat -c http://localhost:3001
